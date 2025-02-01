@@ -65,6 +65,8 @@ Journalisation avec Serilog dans les classes du paquetage dal (accès aux donné
 Attention, les erreurs dans la méthode PwdFort ajoutées dans le commit précédent, ne sont pas encore corrigées. Elles le seront dans le commit suivant.
 ### Commit "Phase 7 : qualité de code (SonarQube), transfert chaine de connexion dans App.config."
 Code corrigé et optimisé avec les alertes de Sonarlint en local et les signalements sur le serveur SonarQube (en particulier au niveau sécurité, d'où le transfert de la chaîne de connexion dans le fichier App.config).
+### Commit "Phase 8 : tests sur classes des packages model et dal (avec accès à la BDD)"
+Tests unitaires sur les classes du package 'model'. Tests d'intégration sur les classes du package 'dal' qui accèdent à la BDD.
 
 ## Installation
 Il est possible de tester l'application étape par étape (commit par commit) dans le cadre de la création d'un TP, ou de tester directement la version finale.<br>
