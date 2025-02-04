@@ -67,6 +67,8 @@ Attention, les erreurs dans la méthode PwdFort ajoutées dans le commit précé
 Code corrigé et optimisé avec les alertes de Sonarlint en local et les signalements sur le serveur SonarQube (en particulier au niveau sécurité, d'où le transfert de la chaîne de connexion dans le fichier App.config).
 ### Commit "Phase 8 : tests sur classes des packages model et dal (avec accès à la BDD)"
 Tests unitaires sur les classes du package 'model'. Tests d'intégration sur les classes du package 'dal' qui accèdent à la BDD.
+### Commit "Phase 9 : ajout de fonctionnalités avec 'tests firsts'"
+Ecriture des tests unitaires avant l'écriture des méthodes correspondantes à tester.
 
 ## Installation
 Il est possible de tester l'application étape par étape (commit par commit) dans le cadre de la création d'un TP, ou de tester directement la version finale.<br>
